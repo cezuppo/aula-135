@@ -13,6 +13,7 @@ public class Program {
 	}
 	
 	public static void method2() {
+		System.out.println("***METHOD2 START***");
 		Scanner sc = new Scanner(System.in);
 		
 		try {
@@ -27,6 +28,7 @@ public class Program {
 			System.out.println("Input error!");
 		}
 		sc.close();
+		System.out.println("***METHOD2 END***");
 	}
 
 }
