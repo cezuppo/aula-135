@@ -29,6 +29,8 @@ public class Program {
 		}
 		catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("Invalid position!");
+			e.printStackTrace();
+			sc.next();
 		}
 		catch (InputMismatchException e) {
 			System.out.println("Input error!");
